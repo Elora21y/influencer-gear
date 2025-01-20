@@ -188,7 +188,7 @@ main section{
 footer{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     background-color: rgba(0, 0, 0, 0.952);
     margin-top: 100px;
@@ -221,6 +221,7 @@ footer{
         flex-direction: column;
     }
 
+
     .banner {
         flex-direction: column-reverse;
         gap: 50px;
@@ -237,7 +238,7 @@ footer{
     }
 
     /* social section */
-    .social{
+    .social , .navbar ul{
         grid-template-columns: repeat(2 , 1fr);
         gap: 18px;
         justify-items: center;
@@ -254,7 +255,12 @@ footer{
     .feature{
         flex-direction: column-reverse;
         gap: 50px;
+        margin-left: 28px;
     }
+    .feature-img img{
+        width: 100%;
+    }
+   
 }
 
 /* medium devices media query */
