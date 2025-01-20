@@ -232,7 +232,7 @@ footer{
         gap: 18px;
     }
 
-    .banner-container{
+    .banner-container , .feature-content{
         margin-left: 28px;
     }
 
@@ -253,7 +253,6 @@ footer{
     /* feature section */
     .feature{
         flex-direction: column-reverse;
-        margin-left: 28px;
         gap: 50px;
     }
 }
